@@ -1,0 +1,188 @@
+*{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.cabeca{
+    
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header h1{
+    margin-left: 45px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    color:#0A3871;
+    font-size: 180%;
+
+}
+
+main{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+body{
+    background-color: #E5E5E5;
+    margin: auto;    
+}
+
+
+
+.caixa{
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+    display: flex;
+}
+
+.texto-entrada{
+    position: absolute;
+    width: 40%;
+}
+
+.informacao{
+    font-size: 12px;
+}
+
+.texto-saida{
+    position: absolute;
+    width: 30%;
+    right: 10px;
+    text-align: justify;      
+}
+
+.mensagem{
+    background-image: url("imagens/img_sem_texto.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    
+}
+
+
+
+.sem-texto{
+    padding: 0 5px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+           
+}
+
+.sem-texto h3 {
+    font-size:1.0rem ;
+    font-weight: 500;
+    line-height: 150%;
+    color:darkgray;    
+    
+}
+
+
+.sem-texto p{
+    font-size:1.0rem ;
+    font-weight: 500;
+    line-height: 150%;
+    color:darkgray; 
+}
+
+
+
+.botoes{
+    width: 940px;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+           
+}
+
+
+.encriptar{
+    background-color: #0A3871;
+    color: #E5E5E5;
+    border-radius: 10px;
+    
+}
+
+
+
+.desencriptar{
+    background-color: #0A3871;
+    color: #E5E5E5;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+}
+
+.botaocopiar{
+    color: #0A3871;
+    background-color: #E5E5E5;
+    border-color: #0A3871;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 100px;   
+}
+
+.copiar{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    
+}
+
+button.encriptar:hover{
+    background-color:aquamarine;
+    color:black;
+    border-radius: 25px;
+    
+}
+
+button.desencriptar:hover{
+    background-color:aquamarine;
+    color:black;
+    border-radius: 25px;
+}
+
+footer{
+    background: #0A3871;
+    position: absolute;
+    height: 10px;
+    bottom: 0;
+    text-align: center;
+    padding: 20px 0;
+        
+}
+
+.footer{
+    padding: 10px 0;
+    width: 940px;
+    margin-block-end: -70px;
+}
+
+.footer p{
+    font-style: italic;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: x-small;
+    font-weight: 100;
+}
+
+.copyright{
+    color: #E5E5E5;
+}
+

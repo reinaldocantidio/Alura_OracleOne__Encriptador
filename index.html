@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Inter&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+    
+    
+</head>
+
+<body>
+ 
+       <header class="header">
+            <div class="cabeca">    
+                <div class="logo-topo">
+                    <img src="imagens/logo_alura.png" alt="Logo alura">
+                </div>
+                <h1>E.N.C.R.I.P.T.A.D.O.R</h1>    
+            </div>
+        </header>
+        <main class="caixa">
+
+            <section class="texto-entrada">
+                <textarea class="input-texto" id="texto-entrada" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                <div>
+                    <h6 class="informacao">&excl;&excl; Inserir apenas letras minúsculas e sem acentos &excl;&excl;</h6>
+                </div>
+                <div class="botoes">
+                    <button class="encriptar" id="encriptar" onclick="btnEncriptar()">
+                        Criptografar
+                    </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">
+                        Descriptografar
+                    </button>
+                </div>
+            </section>
+            
+            <section class="texto-saida">
+                <textarea class="mensagem" id="texto-saida"  cols="20" rows="10"></textarea>
+                <div class="fundo">
+                <div class="sem-texto" id="fundo">
+                    <span><h3>Nenhuma mensagem criptografada<br><br> Digite um texto para criptografar ou uma mensagem cifrada para descriptografar</h3></span>
+                    
+                </div>
+                </div>
+                <div id="copiar"><button class="botaocopiar" onclick="copy()">Copiar</button></div>
+            </section>
+
+       </main>
+
+       
+        
+
+    <footer id="footer" class="footer">
+        
+        <p class="copyright">&copy; Copyright 2022 - Reinaldo Cantidio</p>
+    </footer>
+    <script src="script.js"></script>
+       
+</body>
+
+</html> 
